@@ -27,7 +27,7 @@ export default function App() {
             </div>
           </Slide>
           {/* Complex Slide */}
-          <Slide direction={1} isActive={isToggled}>
+          <Slide direction={-1} isActive={isToggled}>
             <div className="card">
               <h4>Post Number one</h4>
               <p>this is inside the card</p>
